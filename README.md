@@ -2,7 +2,9 @@
 
 Terraform configuration that provisions an Amazon Linux 2023 EC2 instance, installs [OpenClaw](https://openclaw.ai) via the official installer, and configures it to use **Amazon Bedrock** as the default model provider. The instance role grants API access so OpenClaw can call Bedrock without long-lived keys in application config.
 
-Tested with `OpenClaw 2026.4.20 (115f05d)`
+* Tested with `OpenClaw 2026.4.20`
+* Tested with `OpenClaw 2026.4.21`
+* Gateway Failing on `OpenClaw 2026.4.22`
 
 ## What this Terraform Provison
 
