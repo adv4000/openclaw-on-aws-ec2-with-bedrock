@@ -2,9 +2,9 @@
 export HOME=/root
 export PATH="/usr/bin:/bin:/usr/local/bin:$PATH"
 
-curl -fsSL https://openclaw.ai/install.sh | bash -s -- --no-onboard
-
 mkdir -p /root/.openclaw
+
+curl -fsSL https://openclaw.ai/install.sh | bash -s -- --no-onboard --version ${openclaw_version}
 
 cat <<EOF > /root/.openclaw/.env
 AWS_PROFILE=default

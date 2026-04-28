@@ -42,10 +42,11 @@ resource "aws_instance" "openclaw" {
   user_data_replace_on_change = true
 
   user_data = templatefile("user_data.sh", {
-    aws_region     = var.aws_region
-    openclaw_port  = var.openclaw_port
-    openclaw_model = var.openclaw_model
-    openclaw_token = random_string.token.result
+    aws_region       = var.aws_region
+    openclaw_port    = var.openclaw_port
+    openclaw_model   = var.openclaw_model
+    openclaw_version = var.openclaw_version
+    openclaw_token   = random_string.token.result
   })
 
   root_block_device {

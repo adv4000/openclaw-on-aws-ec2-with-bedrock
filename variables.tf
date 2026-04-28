@@ -34,6 +34,12 @@ variable "openclaw_model" {
   default     = "amazon-bedrock/global.amazon.nova-2-lite-v1:0"
 }
 
+variable "openclaw_version" {
+  description = "OpenClaw version to Install"
+  type        = string
+  default     = "latest"
+}
+
 variable "enable_poweruser" {
   description = "Enable PowerUser Access or only Bedrock Access? If true, PowerUser Access will be enabled."
   type        = bool
