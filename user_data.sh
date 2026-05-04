@@ -30,7 +30,13 @@ cat <<EOF > /root/.openclaw/openclaw.json
   "plugins": {
     "entries": {
       "amazon-bedrock": {
-        "enabled": true
+        "enabled": true,
+        "config": {
+          "discovery": {
+            "enabled": true,
+            "region": "${aws_region}"
+          }
+        }
       }
     }
   },

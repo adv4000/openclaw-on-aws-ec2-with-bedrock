@@ -4,7 +4,7 @@ Terraform configuration that provisions an Amazon Linux 2023 EC2 instance, insta
 
 * Tested with `OpenClaw 2026.4.20`
 * Tested with `OpenClaw 2026.4.21`
-* Gateway Failing on `OpenClaw 2026.4.22`
+* Tested with `OpenClaw 2026.5.3` Models AutoDiscovery Not working :(
 
 ## What this Terraform Provison
 
