@@ -76,5 +76,4 @@ terraform destroy
 
 ---
 Don't forget to click on 🌟 !!!<br>
-**Subscribe to my YouTube Channel**: [ADV-IT - @adv-it](https://www.youtube.com/@adv-it) <br>
 Copyleft © Denis Astahov - 2026.
